@@ -1,0 +1,15 @@
+{
+  "batch_size": 1,
+  "dtype": "bfloat16",
+  "engine_init_seconds": 18.327189522999106,
+  "expected_world_size": 1,
+  "gpu_ids": "0",
+  "load_seconds": 5.027135065000039,
+  "model": "/root/mhy/model/qwen3-0.6b",
+  "model_label": "qwen3 0.6B",
+  "other_seconds": 0.04115850699599832,
+  "recovery_total_seconds": 23.395483094995143,
+  "seq_len": 1024,
+  "train_block_seconds": 1.5352469270001166,
+  "zero_stage": 3
+}

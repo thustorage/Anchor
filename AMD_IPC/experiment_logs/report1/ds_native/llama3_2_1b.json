@@ -1,0 +1,15 @@
+{
+  "batch_size": 1,
+  "dtype": "bfloat16",
+  "engine_init_seconds": 18.252246864984045,
+  "expected_world_size": 1,
+  "gpu_ids": "0",
+  "load_seconds": 7.453771445987513,
+  "model": "/root/mhy/model/llama3.2-1b",
+  "model_label": "llama3.2 1B",
+  "other_seconds": 0.04112289004842751,
+  "recovery_total_seconds": 25.747141201019986,
+  "seq_len": 1024,
+  "train_block_seconds": 1.3941386100195814,
+  "zero_stage": 3
+}

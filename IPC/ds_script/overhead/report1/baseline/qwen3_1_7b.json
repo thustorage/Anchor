@@ -1,0 +1,17 @@
+{
+  "batch_size": 10,
+  "dtype": "bfloat16",
+  "experiment": "train_overhead",
+  "gradient_checkpointing": true,
+  "method": "baseline",
+  "mid_training_gpu_used_gib_avg": 55.51641845703125,
+  "model": "/public/huggingface-models/Qwen/Qwen3-1.7B",
+  "model_label": "qwen3 1_7B",
+  "recomputation": true,
+  "seq_len": 1024,
+  "steps_per_epoch": 200,
+  "train_step_milliseconds": 1101.2851369846612,
+  "warmup_steps": 40,
+  "zero3_optimizer_subgroup_count": 16,
+  "zero_stage": 3
+}

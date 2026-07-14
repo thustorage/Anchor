@@ -1,0 +1,54 @@
+#===============================================================================
+# Copyright 2019-2024 Intel Corporation
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#===============================================================================
+
+# Default
+* @oneapi-src/onednn-arch @intel-innersource/dnn-arch
+
+# Github automation
+/.github/ @oneapi-src/onednn-devops
+
+# CPU Engine
+/src/cpu/aarch64/ @oneapi-src/onednn-cpu-aarch64 @intel-innersource/dnn-arch
+/src/cpu/x64/ @oneapi-src/onednn-cpu-x64 @intel-innersource/dnn-cpu
+/src/cpu/rnn/ @oneapi-src/onednn-cpu-x64 @intel-innersource/dnn-cpu
+
+# GPU Engine
+/src/gpu/amd/ @oneapi-src/onednn-gpu-amd @intel-innersource/dnn-arch
+/src/gpu/intel/ @oneapi-src/onednn-gpu-intel @intel-innersource/dnn-gpu
+/src/gpu/nvidia/ @oneapi-src/onednn-gpu-nvidia @intel-innersource/dnn-arch
+/src/gpu/generic/ @oneapi-src/onednn-arch @intel-innersource/dnn-arch @intel-innersource/dnn-gpu
+/src/gpu/generic/sycl/ @oneapi-src/onednn-gpu-generic @intel-innersource/dnn-arch @intel-innersource/dnn-gpu
+
+# Tests
+/tests/benchdnn/inputs/ @oneapi-src/onednn-maintain @intel-innersource/dnn-arch @intel-innersource/dnn-cpu @intel-innersource/dnn-gpu
+/tests/benchdnn/graph/ @oneapi-src/onednn-graph @oneapi-src/onednn-arch @intel-innersource/dnn-graph @intel-innersource/dnn-arch
+/tests/benchdnn/inputs/graph/ @oneapi-src/onednn-graph @oneapi-src/onednn-arch @intel-innersource/dnn-graph @intel-innersource/dnn-arch
+/tests/gtests/graph/ @oneapi-src/onednn-graph @intel-innersource/dnn-graph
+
+# Graph API
+/src/graph/ @oneapi-src/onednn-graph @intel-innersource/dnn-graph
+
+# Documentation
+*.md  @oneapi-src/onednn-doc @oneapi-src/onednn-arch @intel-innersource/dnn-doc @intel-innersource/dnn-arch
+/doc/ @oneapi-src/onednn-doc @oneapi-src/onednn-arch @intel-innersource/dnn-doc @intel-innersource/dnn-arch
+
+# Governance and process
+/.github/CODEOWNERS @oneapi-src/onednn-maintain
+/SECURITY.md @oneapi-src/onednn-maintain
+/MAINTAINERS.md @oneapi-src/onednn-maintain
+/CONTRIBUTING.md @oneapi-src/onednn-maintain
+/CODING_STANDARDS.md @oneapi-src/onednn-maintain
+/CODE_OF_CONDUCT.md @oneapi-src/onednn-maintain

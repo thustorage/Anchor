@@ -1,0 +1,15 @@
+{
+  "batch_size": 1,
+  "checkpoint_backend": "ipc_live_daemon_zero3",
+  "dtype": "bfloat16",
+  "engine_init_seconds": 17.128411398996832,
+  "gpu_ids": "0",
+  "load_seconds": 0.07238033899920993,
+  "model": "/root/mhy/model/llama3.2-1b",
+  "model_label": "llama3.2 1B",
+  "other_seconds": 0.05100493397912942,
+  "recovery_total_seconds": 17.25179667197517,
+  "seq_len": 1024,
+  "train_block_seconds": 1.0700555820658337,
+  "zero_stage": 3
+}

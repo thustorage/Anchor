@@ -1,0 +1,20 @@
+{
+  "average_steps_per_second": 0.8682227119927726,
+  "batch_size": 4,
+  "checkpoint_backend": "checkfreq_async_cpu_snapshot_latest_only_multigpu",
+  "checkpoint_interval": 100,
+  "dtype": "bfloat16",
+  "expected_world_size": 2,
+  "experiment": "e2e_checkfreq_faults_multigpu",
+  "fault_check_interval_seconds": 10.0,
+  "fault_frequency": 1.0,
+  "fault_injection_count": 1,
+  "gpu_ids": "0,1",
+  "model": "/public/huggingface-models/meta-llama/Llama-3.2-3B",
+  "model_label": "llama3_2 3B",
+  "recomputation": true,
+  "seq_len": 1024,
+  "total_steps_target": 2000,
+  "worker_restart_count": 1,
+  "zero_stage": 3
+}

@@ -1,0 +1,17 @@
+method,config,model,average_steps_per_second,fault_injection_count
+ds_native,1gpu,llama3_2 1B,1.6515,1
+checkfreq,1gpu,llama3_2 1B,1.9785,0
+memory,1gpu,llama3_2 1B,2.5615,0
+ipc,1gpu,llama3_2 1B,2.6644,0
+ds_native,1gpu,llama3_2 3B,0.675,1
+checkfreq,1gpu,llama3_2 3B,0.7029,1
+memory,1gpu,llama3_2 3B,1.0288,1
+ipc,1gpu,llama3_2 3B,1.1038,1
+ds_native,2gpu,llama3_2 3B,0.8465,1
+checkfreq,2gpu,llama3_2 3B,0.8682,1
+memory,2gpu,llama3_2 3B,1.097,1
+ipc,2gpu,llama3_2 3B,1.1482,1
+ds_native,1gpu,qwen3 1_7B,1.0298,1
+checkfreq,1gpu,qwen3 1_7B,1.1542,1
+memory,1gpu,qwen3 1_7B,1.4895,1
+ipc,1gpu,qwen3 1_7B,1.5487,1

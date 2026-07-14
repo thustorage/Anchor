@@ -1,0 +1,15 @@
+{
+  "batch_size": 1,
+  "checkpoint_backend": "ipc_live_daemon_zero3",
+  "dtype": "bfloat16",
+  "engine_init_seconds": 12.086138491518795,
+  "gpu_ids": "0",
+  "load_seconds": 0.004870837554335594,
+  "model": "/public/huggingface-models/meta-llama/Llama-3.2-1B",
+  "model_label": "llama3_2 1B",
+  "other_seconds": 2.087911137379706,
+  "recovery_total_seconds": 14.178920466452837,
+  "seq_len": 1024,
+  "train_block_seconds": 0.03536234181374311,
+  "zero_stage": 3
+}

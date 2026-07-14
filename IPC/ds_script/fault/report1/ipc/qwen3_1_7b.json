@@ -1,0 +1,15 @@
+{
+  "batch_size": 1,
+  "checkpoint_backend": "ipc_live_daemon_zero3",
+  "dtype": "bfloat16",
+  "engine_init_seconds": 14.5944070732221,
+  "gpu_ids": "0",
+  "load_seconds": 0.006622507236897945,
+  "model": "/public/huggingface-models/Qwen/Qwen3-1.7B",
+  "model_label": "qwen3 1_7B",
+  "other_seconds": 2.05370391625911,
+  "recovery_total_seconds": 16.65473349671811,
+  "seq_len": 1024,
+  "train_block_seconds": 0.04964921493083239,
+  "zero_stage": 3
+}

@@ -1,0 +1,15 @@
+{
+  "batch_size": 1,
+  "dtype": "bfloat16",
+  "engine_init_seconds": 15.572245269082487,
+  "expected_world_size": 1,
+  "gpu_ids": "0",
+  "load_seconds": 21.062891139648855,
+  "model": "/public/huggingface-models/meta-llama/Llama-3.2-3B",
+  "model_label": "llama3_2 3B",
+  "other_seconds": 0.04122277442365885,
+  "recovery_total_seconds": 36.676359183155,
+  "seq_len": 1024,
+  "train_block_seconds": 62.458405589684844,
+  "zero_stage": 3
+}

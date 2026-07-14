@@ -1,0 +1,20 @@
+{
+  "experiment": "sharegpt_inference_overhead",
+  "method": "baseline",
+  "ipc_enabled": false,
+  "runtime_backend": "vllm_baseline",
+  "model": "/public/huggingface-models/Qwen/Qwen3-32B",
+  "model_label": "qwen3 32B",
+  "dtype": "float16",
+  "tensor_parallel_size": 2,
+  "visible_gpu_count": 2,
+  "gpu_memory_utilization": 0.9,
+  "enable_prefix_caching": false,
+  "seed": 2026,
+  "num_requests": 512,
+  "max_model_len": 8192,
+  "warmup_processed_tokens_target": 40000,
+  "measure_processed_tokens_target": 200000,
+  "mid_benchmark_gpu_used_gib_avg": 72.8148193359375,
+  "average_token_throughput_tps": 3818.7891861580106
+}

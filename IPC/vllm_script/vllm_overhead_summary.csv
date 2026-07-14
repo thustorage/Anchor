@@ -1,0 +1,9 @@
+method,config,model,throughput_tps,gpu_used_gib
+baseline,single,qwen3 8B,8194.0583,71.8719
+ipc,single,qwen3 8B,8033.9952,72.2894
+baseline,single,qwen3 14B,5119.6705,71.9285
+ipc,single,qwen3 14B,5093.5635,72.3383
+baseline,TP2,qwen3 32B,3818.7892,72.8148
+ipc,TP2,qwen3 32B,3801.5135,73.1807
+baseline,single,qwen3 32B,1738.8483,71.9422
+ipc,single,qwen3 32B,1693.8775,72.3051

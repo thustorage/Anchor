@@ -1,0 +1,9 @@
+method,config,model,train_step_milliseconds,gpu_used_gib
+baseline,1gpu,llama3_2 1B,668.1459,40.7723
+ipc,1gpu,llama3_2 1B,689.9141,43.5433
+baseline,1gpu,llama3_2 3B,1653.8039,73.9656
+ipc,1gpu,llama3_2 3B,1710.4416,76.6528
+baseline,multigpu,llama3_2 3B,1670.6031,55.6209
+ipc,multigpu,llama3_2 3B,1699.9584,55.7231
+baseline,1gpu,qwen3 1_7B,1101.2851,55.5164
+ipc,1gpu,qwen3 1_7B,1134.3393,54.9301

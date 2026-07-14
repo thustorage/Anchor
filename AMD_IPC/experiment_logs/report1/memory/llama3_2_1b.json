@@ -1,0 +1,16 @@
+{
+  "batch_size": 1,
+  "checkpoint_backend": "memory_shared_cpu_flat_buffer_v2_zero3",
+  "dtype": "bfloat16",
+  "engine_init_seconds": 17.58653315997799,
+  "expected_world_size": 1,
+  "gpu_ids": "0",
+  "load_seconds": 1.9113509120070376,
+  "model": "/root/mhy/model/llama3.2-1b",
+  "model_label": "llama3.2 1B",
+  "other_seconds": 1.103272606007522,
+  "recovery_total_seconds": 20.60115667799255,
+  "seq_len": 1024,
+  "train_block_seconds": 1.4078351109928917,
+  "zero_stage": 3
+}

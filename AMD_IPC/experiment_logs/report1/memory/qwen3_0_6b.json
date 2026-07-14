@@ -1,0 +1,16 @@
+{
+  "batch_size": 1,
+  "checkpoint_backend": "memory_shared_cpu_flat_buffer_v2_zero3",
+  "dtype": "bfloat16",
+  "engine_init_seconds": 17.468054542987375,
+  "expected_world_size": 1,
+  "gpu_ids": "0",
+  "load_seconds": 1.3073500409955159,
+  "model": "/root/mhy/model/qwen3-0.6b",
+  "model_label": "qwen3 0.6B",
+  "other_seconds": 1.1012375410064124,
+  "recovery_total_seconds": 19.876642124989303,
+  "seq_len": 1024,
+  "train_block_seconds": 1.485398074000841,
+  "zero_stage": 3
+}

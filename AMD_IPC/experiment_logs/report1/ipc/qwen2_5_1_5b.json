@@ -1,0 +1,15 @@
+{
+  "batch_size": 1,
+  "checkpoint_backend": "ipc_live_daemon_zero3",
+  "dtype": "bfloat16",
+  "engine_init_seconds": 18.810624903038843,
+  "gpu_ids": "0",
+  "load_seconds": 0.12771862500812858,
+  "model": "/root/mhy/model/qwen2.5-1.5b-it",
+  "model_label": "qwen2.5 1.5B",
+  "other_seconds": 0.052770235954085365,
+  "recovery_total_seconds": 18.991113764001057,
+  "seq_len": 1024,
+  "train_block_seconds": 1.7560106820019428,
+  "zero_stage": 3
+}

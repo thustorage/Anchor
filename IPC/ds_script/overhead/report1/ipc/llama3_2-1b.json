@@ -1,0 +1,17 @@
+{
+  "batch_size": 10,
+  "dtype": "bfloat16",
+  "experiment": "train_overhead",
+  "gradient_checkpointing": true,
+  "method": "ipc",
+  "mid_training_gpu_used_gib_avg": 43.5433349609375,
+  "model": "/public/huggingface-models/meta-llama/Llama-3.2-1B",
+  "model_label": "llama3_2 1B",
+  "recomputation": true,
+  "seq_len": 1024,
+  "steps_per_epoch": 200,
+  "train_step_milliseconds": 689.9140922352672,
+  "warmup_steps": 40,
+  "zero3_optimizer_subgroup_count": 11,
+  "zero_stage": 3
+}

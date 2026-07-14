@@ -1,0 +1,16 @@
+{
+  "batch_size": 1,
+  "checkpoint_backend": "checkfreq_async_cpu_snapshot_zero3",
+  "dtype": "bfloat16",
+  "engine_init_seconds": 12.319158971309662,
+  "expected_world_size": 1,
+  "gpu_ids": "0",
+  "load_seconds": 12.216984085738659,
+  "model": "/public/huggingface-models/Qwen/Qwen3-1.7B",
+  "model_label": "qwen3 1_7B",
+  "other_seconds": 1.5810194946825504,
+  "recovery_total_seconds": 26.11716255173087,
+  "seq_len": 1024,
+  "train_block_seconds": 15.044256892055273,
+  "zero_stage": 3
+}

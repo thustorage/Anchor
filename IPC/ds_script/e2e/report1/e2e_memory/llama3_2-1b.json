@@ -1,0 +1,20 @@
+{
+  "average_steps_per_second": 2.5615412460977587,
+  "batch_size": 4,
+  "checkpoint_backend": "memory_shared_cpu_flat_buffer_e2e",
+  "checkpoint_interval": 100,
+  "dtype": "bfloat16",
+  "expected_world_size": 1,
+  "experiment": "e2e_memory_checkpoint_faults",
+  "fault_check_interval_seconds": 10.0,
+  "fault_frequency": 1.0,
+  "fault_injection_count": 0,
+  "gpu_ids": "0",
+  "model": "/public/huggingface-models/meta-llama/Llama-3.2-1B",
+  "model_label": "llama3_2 1B",
+  "recomputation": true,
+  "seq_len": 1024,
+  "total_steps_target": 2000,
+  "worker_restart_count": 0,
+  "zero_stage": 3
+}

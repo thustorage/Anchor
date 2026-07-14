@@ -1,0 +1,17 @@
+method,config,model,recovery_total_seconds,engine_init_seconds,load_seconds,train_block_seconds,other_seconds
+ds_native,1gpu,llama3_2 1B,19.6682,11.4317,8.1953,26.2692,0.0411
+checkfreq,1gpu,llama3_2 1B,21.1685,10.7504,8.7958,10.3445,1.6223
+memory,1gpu,llama3_2 1B,14.5416,10.467,2.4795,3.5936,1.5951
+ipc,1gpu,llama3_2 1B,14.1789,12.0861,0.0049,0.0354,2.0879
+ds_native,1gpu,llama3_2 3B,36.6764,15.5722,21.0629,62.4584,0.0412
+checkfreq,1gpu,llama3_2 3B,38.0161,14.707,21.6755,28.3318,1.6336
+memory,1gpu,llama3_2 3B,24.1903,16.2388,6.3544,9.3046,1.5971
+ipc,1gpu,llama3_2 3B,19.2341,17.2012,0.0116,0.099,2.0214
+ds_native,2gpu,llama3_2 3B,30.7519,15.0451,13.3434,28.8167,2.3633
+checkfreq,2gpu,llama3_2 3B,32.649,14.6164,13.8596,18.2208,4.173
+memory,2gpu,llama3_2 3B,21.2259,14.1745,3.0801,5.08,3.9713
+ipc,2gpu,llama3_2 3B,17.462,15.3173,0.0066,0.0488,2.138
+ds_native,1gpu,qwen3 1_7B,24.4287,12.9006,11.4866,36.7716,0.0416
+checkfreq,1gpu,qwen3 1_7B,26.1172,12.3192,12.217,15.0443,1.581
+memory,1gpu,qwen3 1_7B,17.0058,12.0457,3.3749,5.6663,1.5852
+ipc,1gpu,qwen3 1_7B,16.6547,14.5944,0.0066,0.0496,2.0537

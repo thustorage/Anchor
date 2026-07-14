@@ -1,0 +1,16 @@
+{
+  "batch_size": 1,
+  "checkpoint_backend": "checkfreq_async_cpu_snapshot_zero3",
+  "dtype": "bfloat16",
+  "engine_init_seconds": 14.707039650529623,
+  "expected_world_size": 1,
+  "gpu_ids": "0",
+  "load_seconds": 21.675498630851507,
+  "model": "/public/huggingface-models/meta-llama/Llama-3.2-3B",
+  "model_label": "llama3_2 3B",
+  "other_seconds": 1.6336022652685642,
+  "recovery_total_seconds": 38.016140546649694,
+  "seq_len": 1024,
+  "train_block_seconds": 28.331817589700222,
+  "zero_stage": 3
+}

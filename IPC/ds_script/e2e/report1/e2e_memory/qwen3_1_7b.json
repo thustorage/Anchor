@@ -1,0 +1,20 @@
+{
+  "average_steps_per_second": 1.4144648323655244,
+  "batch_size": 4,
+  "checkpoint_backend": "memory_shared_cpu_flat_buffer_e2e",
+  "checkpoint_interval": 100,
+  "dtype": "bfloat16",
+  "expected_world_size": 1,
+  "experiment": "e2e_memory_checkpoint_faults",
+  "fault_check_interval_seconds": 10.0,
+  "fault_frequency": 1.0,
+  "fault_injection_count": 1,
+  "gpu_ids": "0",
+  "model": "/public/huggingface-models/Qwen/Qwen3-1.7B",
+  "model_label": "qwen3 1_7B",
+  "recomputation": true,
+  "seq_len": 1024,
+  "total_steps_target": 2000,
+  "worker_restart_count": 1,
+  "zero_stage": 3
+}

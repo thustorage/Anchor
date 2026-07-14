@@ -1,0 +1,15 @@
+{
+  "batch_size": 1,
+  "dtype": "bfloat16",
+  "engine_init_seconds": 12.900564993731678,
+  "expected_world_size": 1,
+  "gpu_ids": "0",
+  "load_seconds": 11.48655395489186,
+  "model": "/public/huggingface-models/Qwen/Qwen3-1.7B",
+  "model_label": "qwen3 1_7B",
+  "other_seconds": 0.04158073104918003,
+  "recovery_total_seconds": 24.428699679672718,
+  "seq_len": 1024,
+  "train_block_seconds": 36.77160003874451,
+  "zero_stage": 3
+}

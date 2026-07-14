@@ -1,0 +1,22 @@
+{
+  "connector_external_state_restore_seconds": 0.02405381202697754,
+  "connector_python_startup_seconds": 5.860079288482666,
+  "connector_request_rebuild_seconds": 0.07514834403991699,
+  "connector_resume_state_load_seconds": 1.3461861610412598,
+  "connector_resume_to_ready_seconds": 0.07281875610351562,
+  "connector_state_load_seconds": 19.246137857437134,
+  "connector_vllm_engine_init_seconds": 17.899704456329346,
+  "connector_vllm_engine_startup_seconds": 17.899951696395874,
+  "fault_start_time": 1784211440.472346,
+  "fault_to_recovery_ready_seconds": 25.27823805809021,
+  "pending_request_count_before_ready": 520,
+  "profile_type": "fault_recovery",
+  "ready_marker": "all recoverable requests reached decode stage before pending requests were activated",
+  "recoverable_request_count_before_ready": 504,
+  "replayed_request_count": 504,
+  "requests_decode_ready_to_ready": 504,
+  "requests_resumed_to_ready": 0,
+  "restored_blocks": 15243,
+  "restored_requests": 501,
+  "timestamp_utc": "2026-07-16T14:17:45.752258+00:00"
+}

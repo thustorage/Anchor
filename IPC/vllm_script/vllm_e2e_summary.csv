@@ -1,0 +1,13 @@
+method,config,model,ms_per_request,completed_requests,fault_injection_count,fault_to_recovery_ready_seconds,connector_python_startup_seconds,connector_engine_startup_seconds,other_seconds
+replay,single,qwen3 8B,98.2187,10000,4,43.5109,5.3744,20.8612,17.2752
+kv_memory,single,qwen3 8B,94.9282,10000,4,32.3354,5.5041,22.107,4.7243
+ipc,single,qwen3 8B,85.3679,10000,4,14.2406,5.3455,6.7031,2.192
+replay,TP2,qwen3 14B,98.972,10000,4,55.7046,5.6172,32.4394,17.648
+kv_memory,TP2,qwen3 14B,97.9047,10000,4,44.4853,6.1345,32.4182,5.9326
+ipc,TP2,qwen3 14B,87.0002,10000,4,21.4923,5.867,13.1726,2.4528
+replay,single,qwen3 14B,141.3288,10000,5,58.3717,5.3009,28.5156,24.5552
+kv_memory,single,qwen3 14B,141.5908,10000,6,39.6953,5.3784,30.6099,3.707
+ipc,single,qwen3 14B,125.1228,10000,6,14.7267,5.3167,7.4579,1.9522
+replay,single,qwen3 32B,504.0582,10000,23,74.2231,5.3591,62.3358,6.5283
+kv_memory,single,qwen3 32B,510.0924,10000,24,64.0062,5.4219,57.4584,1.1259
+ipc,single,qwen3 32B,400.6526,10000,24,17.0237,5.3037,9.8835,1.8365

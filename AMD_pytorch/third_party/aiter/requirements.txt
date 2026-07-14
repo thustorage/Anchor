@@ -1,0 +1,5 @@
+pandas
+pytest
+psutil
+einops
+pybind11>=2.13,<3
